@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.navBar{
+    width: 100%;
+    background-color: #1c3879;
+}
+
+
+.logo img{
+    display: block;
+    width: 200px;
+    margin:  0px auto;
+}
+
+.item-menu{
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 5px;
+    
+}
+
+div.lorem{
+    border: solid 2px #000;
+    color: lightsalmon;
+    width: 1500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item{
+    padding: 1px 5px 2px 2px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border: solid 2px #ffffff;
+    border-radius: 35%;
+    display: inline-block;
+    
+}
+
+main{
+    
+    background-color: #607eaa;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Inknut Antiqua', serif;
+}
+.puerta{
+    width: 30%;
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+.puerta img{
+    margin-top: 60px;
+    width: 300px;
+    height: 350px;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.puerta p{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+p.lyn{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 16px;
+}
+
+#footer{
+    background-color: #eae3d2;
+}
+
+#footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .contact{
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .contactForm{
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+  }
+
+  .contactMap{
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+  }
+  p.ubicacion{
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .colores img{
+    width: 100%;
+    height: 60%;
+  }
