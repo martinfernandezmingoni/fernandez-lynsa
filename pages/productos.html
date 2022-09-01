@@ -16,16 +16,22 @@
     <header>
         
         <!--Barra Navegacion-->
-        <nav class="navBar">
-            <ul class="menu">
-                <!--Lista no ordenanda-->
-                <li class="item-menu"><a href="../index.html" class="item">INICIO</a></li>
-                <li class="item-menu"><a href="./productos.html" class="item">PRODUCTOS</a></li>
-                <li class="item-menu"><a href="./carta-de-colores.html" class="item">CARTA DE COLORES</a></li>
-                <li class="item-menu"><a href="./la-empresa.html" class="item">LA EMPRESA</a></li>
-                <li class="item-menu"><a href="./contacto.html" class="item">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light colorNav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./productos.html">PRODUCTOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./carta-de-colores.html">CARTA DE COLORES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./la-empresa.html">LA EMPRESA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
          <!-- Logo--><div class="logo">
             <a href="../index.html">
                 <img src="../img/logo.png" alt="Logo Lynsa">
@@ -34,11 +40,30 @@
     </header>
     <main>
         <h1>Productos</h1>
-        <br><br>
-        <h2>ESTA SECCION ESTA EN PROCESO, LES DEJAMOS POR EL MOMENTO UN HERMOSO TEXTO SOBRE LOREM IPSUM</h2>
-        <br><br><br>
-        <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et ducimus facilis nostrum iusto ullam reprehenderit dolor labore modi eos, aliquam distinctio pariatur eveniet magnam repellat suscipit magni voluptatibus qui molestias tempora. Eos incidunt, eaque aspernatur voluptatum architecto ad voluptatem commodi eligendi laudantium corporis accusantium iure temporibus quidem vero sapiente.</div>
-    </main>
+        <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/6fijo.jpg" class="card-img-top" alt="6 fijo">
+              <div class="card-body">
+                <h5 class="card-title">6 mm Fijos</h5>
+                <p class="card-text">Cierres de Polyester con una cremallera de 6mm de ancho, con un deslizador automatico en forma de A, tambien puede fabricarse con otros tipos de deslizadores, topes y terminaciones metalicas niqueladas.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="../img/4mm.jpg" class="card-img-top" alt="4mm fijo">
+              <div class="card-body">
+                <h5 class="card-title">4 mm Fijo</h5>
+                <p class="card-text">Cierres de Polyester con una cremallera de 4mm de ancho, con un deslizador Pinlock, tambien puede fabricarse con otros tipos de deslizadores, topes y terminaciones metalicas niqueladas.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="../img/ddp.jpg" class="card-img-top" alt="DDP">
+              <div class="card-body">
+                <h5 class="card-title">Diente de Perro</h5>
+                <p class="card-text">Cierres de plastico con una cremallera de 5mm de ancho, con un deslizador automatico Europeo, tambien puede fabricarse con otros tipos de deslizadores, topes y terminaciones de plastico.</p>
+              </div>
+            </div>
+          </div>
+        </main>
     <!--PIE DE PAGINA-->
     <footer id="footer">
         <p>Cierres Lynsa</p>
