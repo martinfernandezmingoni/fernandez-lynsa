@@ -7,7 +7,6 @@
 
 
 .navBar{
-    width: 100%;
     background-color: #1c3879;
 }
 
@@ -18,12 +17,12 @@
     margin:  0px auto;
 }
 
-.item-menu{
+/* .item-menu{
     display: inline-block;
     padding: 10px 5px 10px 5px;
     margin-bottom: 5px;
     
-}
+} */
 
 div.lorem{
     border: solid 2px #000;
